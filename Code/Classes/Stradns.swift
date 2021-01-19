@@ -1,5 +1,6 @@
+import UIKit
 
-class Stradns: URLSessionDelegate{
+class ViewController: UIViewController,URLSessionDelegate {
     private var originIP = "112.90.70.72"
     private var domainName = "www.baidu.com"
     private var ipAddress:String = ""
